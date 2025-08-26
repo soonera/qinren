@@ -1,3 +1,4 @@
+
 @supports not (gap: 1px) {
   .profile-container {
     margin-left: -20px;
@@ -73,10 +74,73 @@
   }
 }
 
+/* 强制Edge兼容性 */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .profile-container {
+    display: block;
+  }
+  
+  .profile-container > * {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px 0 0;
+  }
+  
+  .paper-card {
+    display: block;
+  }
+  
+  .paper-card > * {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px 0 0;
+  }
+  
+  .project-card {
+    display: block;
+  }
+  
+  .project-card > * {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px 0 0;
+  }
+  
+  .contact-links {
+    display: block;
+  }
+  
+  .contact-links > * {
+    display: inline-block;
+    margin: 0 12px 0 0;
+  }
+  
+  .paper-links {
+    display: block;
+  }
+  
+  .paper-links > * {
+    display: inline-block;
+    margin: 0 8px 0 0;
+  }
+  
+  .project-stats {
+    display: block;
+  }
+  
+  .project-stats > * {
+    display: inline-block;
+    margin: 0 15px 0 0;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
 }
 
 body {
