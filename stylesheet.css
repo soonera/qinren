@@ -279,7 +279,7 @@ heading {
   letter-spacing: -0.01em;
 }
 
-heading::before {
+/* heading::before {
   content: '';
   position: absolute;
   left: 0;
@@ -289,7 +289,7 @@ heading::before {
   height: 25px;
   background: #2d3748;
   border-radius: 2px;
-}
+} */
 
 .paper-card {
   background: white;
@@ -347,7 +347,7 @@ papertitle a {
 
 papertitle a:hover {
   color: #2c5aa0;
-  border-bottom-color: #3182ce;
+  /* border-bottom-color: #3182ce; */
 }
 
 .paper-info {
@@ -677,10 +677,10 @@ papertitle a:hover {
     padding-left: 12px;
   }
   
-  heading::before {
+  /* heading::before {
     width: 2px;
     height: 20px;
-  }
+  } */
 
   .honors-list li {
     padding: 6px 12px;
