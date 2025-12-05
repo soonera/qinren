@@ -142,7 +142,7 @@
 }
 
 body {
-  background: white;
+  background: #faf9f6;
   margin: 0;
   padding: 15px;
   font-family: 'Fira Sans', Arial, sans-serif;
@@ -278,11 +278,11 @@ body {
 .main-container {
   max-width: 1000px;
   margin: 0 auto;
-  background: white;
+  background: #faf9f6;
 }
 
 .profile-section {
-  background: #ffffff;
+  background: #faf9f6;
   color: #000000;
   padding: 35px 40px 20px 40px;
   text-align: left;
@@ -405,6 +405,8 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
 }
 
 .content-section {
@@ -440,7 +442,7 @@ heading {
 } */
 
 .paper-card {
-  background: white;
+  background: #faf9f6;
   border-radius: 6px;
   padding: 18px;
   margin: 0px 0 0px 0;
@@ -500,6 +502,8 @@ heading {
   justify-content: center;
   background: white;
   position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
 }
 
 .paper-image img {
@@ -712,7 +716,9 @@ papertitle a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: white;
+  background: #faf9f6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
 }
 
 
@@ -721,7 +727,7 @@ papertitle a:hover {
   height: 100%;
   object-fit: contain;
   cursor: pointer;
-  background: white;
+  background: #faf9f6;
 }
 
 .project-content {
@@ -743,11 +749,11 @@ papertitle a:hover {
 
 .github-stars {
   display: inline-block;
-  color: #000000;
+  color: #1e3a8a;
   font-size: 1rem;
   padding: 4px 10px;
-  background: transparent;
-  border: 1px solid #e2e8f0;
+  background: #e8ecf7;
+  border: 1px solid #1e3a8a;
   border-radius: 4px;
   font-weight: 400;
 }
