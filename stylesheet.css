@@ -179,7 +179,7 @@ body {
 }
 
 .table-of-contents:hover::before {
-  background: #6366f1;
+  background: #1e3a8a;
 }
 
 .table-of-contents:hover {
@@ -216,7 +216,7 @@ body {
 }
 
 .table-of-contents:hover li::before {
-  background: #6366f1;
+  background: #1e3a8a;
   width: 8px;
   height: 8px;
 }
@@ -234,7 +234,7 @@ body {
 }
 
 .table-of-contents:hover li::after {
-  background: #6366f1;
+  background: #1e3a8a;
 }
 
 .table-of-contents li:last-child::after {
@@ -257,7 +257,7 @@ body {
 }
 
 .table-of-contents a:hover {
-  color: #6366f1;
+  color: #1e3a8a;
 }
 
 .table-of-contents::before {
@@ -348,6 +348,14 @@ body {
   letter-spacing: -0.02em;
 }
 
+.profile-section name .name-first {
+  color: #1e3a8a;
+}
+
+.profile-section name .name-last {
+  font-weight: 10;
+}
+
 .profile-section p {
   font-size: 1.05rem;
   margin: 12px 0;
@@ -369,14 +377,14 @@ body {
 }
 
 .profile-section a {
-  color: #6366f1;
+  color: #1e3a8a;
   text-decoration: none;
   transition: color 0.2s ease;
   font-weight: 400;
 }
 
 .profile-section a:hover {
-  color: #4f46e5;
+  color: #1e3a8a;
   text-decoration: underline;
 }
 
@@ -473,12 +481,12 @@ heading {
 }
 
 .paper-filter-btn.active {
-  background: #6366f1;
+  background: #1e3a8a;
   color: white;
 }
 
 .paper-filter-btn.active:hover {
-  background: #4f46e5;
+  background: #1e3a8a;
 }
 
 .paper-image {
@@ -536,7 +544,7 @@ papertitle {
 }
 
 papertitle a {
-  color: #6366f1;
+  color: #1e3a8a;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1rem;
@@ -549,7 +557,7 @@ papertitle a {
 }
 
 papertitle a:hover {
-  color: #4f46e5;
+  color: #1e3a8a;
   /* border-bottom-color: #1673D1; */
 }
 
@@ -576,13 +584,13 @@ papertitle a:hover {
 }
 
 .paper-info a {
-  color: #6366f1;
+  color: #1e3a8a;
   text-decoration: none;
   transition: color 0.2s ease;
 }
 
 .paper-info a:hover {
-  color: #4f46e5;
+  color: #1e3a8a;
   text-decoration: underline;
 }
 
@@ -601,14 +609,14 @@ papertitle a:hover {
 }
 
 .paper-links a {
-  color: #6366f1;
+  color: #1e3a8a;
   text-decoration: none;
   font-size: 1rem;
   transition: color 0.2s ease;
 }
 
 .paper-links a:hover {
-  color: #4f46e5;
+  color: #1e3a8a;
   text-decoration: underline;
 }
 
@@ -642,14 +650,14 @@ papertitle a:hover {
 }
 
 .contact-links a {
-  color: #6366f1;
+  color: #1e3a8a;
   text-decoration: none;
   font-size: 0.9rem;
   transition: color 0.2s ease;
 }
 
 .contact-links a:hover {
-  color: #4f46e5;
+  color: #1e3a8a;
   text-decoration: underline;
 }
 
@@ -668,7 +676,7 @@ papertitle a:hover {
 }
 
 .location-info a {
-  color: #6366f1;
+  color: #1e3a8a;
   text-decoration: none;
   transition: color 0.2s ease;
   display: inline-flex;
@@ -682,7 +690,7 @@ papertitle a:hover {
 }
 
 .location-info a:hover {
-  color: #4f46e5;
+  color: #1e3a8a;
   text-decoration: underline;
 }
 
@@ -888,7 +896,7 @@ papertitle a:hover {
 }
 
 .footer a {
-  color: #6366f1;
+  color: #1e3a8a;
   text-decoration: none;
 }
 
@@ -911,9 +919,9 @@ papertitle a:hover {
 }
 
 .project-link:hover {
-  background: #6366f1;
+  background: #1e3a8a;
   color: white;
-  border-color: #6366f1;
+  border-color: #1e3a8a;
   transform: translateY(-1px);
   box-shadow: 0 2px 6px rgba(99, 102, 241, 0.2);
 }
