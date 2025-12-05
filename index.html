@@ -6,51 +6,211 @@
   <title>Qin Ren</title>
   <meta name="author" content="Qin Ren">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 
 <body>
+  <nav class="table-of-contents">
+    <ul>
+      <li><a href="#top">Qin Ren</a></li>
+      <li><a href="#research-interests">Research Interests</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#services">Professional Services</a></li>
+      <li><a href="#honors">Honors and Awards</a></li>
+    </ul>
+  </nav>
+  
   <div class="main-container">
     <section class="profile-section">
+      <name id="top">Qin Ren</name>
       <div class="profile-container">
         <div class="profile-text">
-          <name>Qin Ren</name>
-          
-          <p>Hi👋, I am a Second-year Computer Science Ph.D. student at <a href="https://www.stonybrook.edu/">Stony Brook University</a>, where I am fortunate to be advised by Professor <a href="https://chenyuyou.me/">Chenyu You</a>.</p>
-          <p>I received my B.S. degree from <a href="http://english.hust.edu.cn/">Huazhong University of Science and Technology</a> and my M.S. degree from <a href="https://www.tsinghua.edu.cn/en/index.htm">Tsinghua University</a>.</p>
-          <p>Previously, I spent great time at <a href="https://openmmlab.com/">OpenMMLab</a> and <a href="https://ailab.tencent.com/ailab/en/index/">Tencent AI Lab</a>.</p>
+          <p>Hi there 👋. I am Qin Ren (also go by <strong>Lyra</strong>), a second-year PhD student in Computer Science at <a href="https://www.stonybrook.edu/">Stony Brook University</a>, where I am fortunate to be advised by Prof. <a href="https://chenyuyou.me/">Chenyu You</a>.</p>
+          <p>I received my B.S. from <a href="http://english.hust.edu.cn/">Huazhong University of Science and Technology</a> and my M.S. from <a href="https://www.tsinghua.edu.cn/en/index.htm">Tsinghua University</a>.</p>
+          <p>Previously, I interned at <a href="https://openmmlab.com/">OpenMMLab</a>, contributing to self-supervised learning tools and training pipelines. I also interned at <a href="https://ailab.tencent.com/ailab/en/index/">Tencent AI Lab</a>, working on AI4Science research.</p>
 
-          <p>My research lies in <strong>machine learning</strong> and its applications to <strong>healthcare</strong>.</p>
+          <!-- <p>My research lies in <strong>machine learning</strong> and its applications to <strong>healthcare</strong>.</p> -->
 
-          <div class="contact-links">
-            <a href="mailto:qin.ren@stonybrook.edu">Email</a>
-            <a href="https://scholar.google.com.hk/citations?user=Tcg-9DcAAAAJ&hl=zh-CN">Google Scholar</a>
-            <a href="https://github.com/soonera">Github</a>
-            <a href="https://www.linkedin.com/in/qin-ren-359a2420b/">LinkedIn</a>
-          </div>
+          <p style="text-align: left; margin-top: 20px; margin-bottom: 0px;"><strong style="background: none; padding: 0; border-radius: 0;">Email:</strong> qin.ren _at_ stonybrook.edu</p>
+
         </div>
 
         <div class="profile-image-container">
           <div class="profile-image">
             <img src="images/qinren.png" alt="Qin Ren profile photo">
           </div>
-          <div class="location-info">
-            <a href="https://maps.app.goo.gl/yrw4zLYxEKDmxyoQA" target="_blank">
-              Stony Brook, New York State, USA
-            </a>
+          <div class="contact-links">
+            <a href="#">CV</a>
+            <span class="separator">/</span>
+            <a href="https://scholar.google.com.hk/citations?user=Tcg-9DcAAAAJ&hl=zh-CN">Google Scholar</a>
+            <span class="separator">/</span>
+            <a href="https://github.com/soonera">GitHub</a>
+            <span class="separator">/</span>
+            <a href="https://www.linkedin.com/in/qin-ren-359a2420b/">LinkedIn</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 内容区域 -->
     <section class="content-section">
-      <!-- 论文部分 -->
-      <heading>Publications</heading>
+      <heading id="research-interests">Research Interests</heading>
       
-      <p style="margin: 15px 0; font-size: 0.9rem; color: #6b7280; font-style: italic;">* indicates equal contribution (co-first authors)</p>
+      <p style="margin-bottom: 15px; font-size: 1rem;">
+        I study the gap between powerful AI and the messy world it faces, asking <strong>what AI should do when it doesn't know</strong>.
+      </p>
       
-      <div class="paper-card">
+      <ul class="service-list research-interests-list" style="margin-top: 10px;">
+        <li><strong>Uncertainty-aware Learning</strong>: How can AI learn from weak signals without hallucinating certainty?</li>
+        <li><strong>Efficient Scaling</strong>: How can AI become more capable without becoming more expensive?</li>
+        <li><strong>Reliable Reasoning</strong>: What makes AI  trustworthy, and when should its outputs be treated with caution?</li>
+      </ul>
+
+      <heading id="news">News</heading>
+      
+      <ul class="service-list news-list">
+        <li><strong>[2025.09]</strong> I attended <a href="https://conferences.miccai.org/2025/en/default.asp" style="color: #6366f1; text-decoration: none;">MICCAI 2025</a> in Daejeon, South Korea ✈️, and received the MICCAI 2025 NIH Registration Grant! 🏆</li>
+        <li><strong>[2025.08]</strong> Our paper <a href="https://arxiv.org/abs/2508.14461" style="color: #6366f1; text-decoration: none;">Ouroboros</a> has been accepted at ICCV 2025! 🎉</li>
+        <li><strong>[2025.06]</strong> Our paper <a href="https://arxiv.org/abs/2506.20741v2" style="color: #6366f1; text-decoration: none;">OTSurv</a> has been accepted at MICCAI 2025! 🎉</li>
+        <li><strong>[2024.12]</strong> Our paper <a href="https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(24)00599-0/fulltext" style="color: #6366f1; text-decoration: none;">DeepGEM</a> has been published in The Lancet Oncology (IF: 51.1)! 🏆</li>
+        <li><strong>[2024.08]</strong> I started my CS Ph.D. at <a href="https://www.stonybrook.edu/" style="color: #6366f1; text-decoration: none;">Stony Brook University</a> 🎓 and received the <a href="https://hennessy.stanford.edu/" style="color: #6366f1; text-decoration: none;">John Hennessy Fellowship</a>! 🏆</li>
+        <li><strong>[2024.02]</strong> Our paper <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29547" style="color: #6366f1; text-decoration: none;">LaDM3IL</a> has been accepted at AAAI 2024! 🎉</li>
+        <li><strong>[2023.12]</strong> Our paper <a href="https://ieeexplore.ieee.org/abstract/document/10385479" style="color: #6366f1; text-decoration: none;">Multimodal-AIR-BERT</a> has been accepted by BIBM 2023! 🎉</li>
+        <li><strong>[2023.06]</strong> Our paper <a href="https://link.springer.com/chapter/10.1007/978-3-031-43987-2_54" style="color: #6366f1; text-decoration: none;">IIB-MIL</a> has been accepted at MICCAI 2023! 🎉</li>
+
+      </ul>
+
+      <heading id="publications">Publications</heading>
+      
+      <div style="margin: 15px 0 20px 0; display: flex; align-items: center; justify-content: space-between;">
+        <p style="margin: 0; font-size: 1rem; color: #6b7280;">[* = co-first authors]</p>
+        <div class="paper-filter-group">
+          <button id="selectedBtn" class="paper-filter-btn active" onclick="filterPapers('selected')">Selected Papers</button>
+          <button id="allBtn" class="paper-filter-btn" onclick="filterPapers('all')">All</button>
+        </div>
+      </div>
+
+
+      <div class="paper-card selected-paper">
+        <div class="paper-image">
+          <img src="images/scale.jpg" alt="Scale paper">
+        </div>
+        <div class="paper-content">
+          <papertitle>
+            <a href="https://arxiv.org/abs/2511.19917">Scale Where It Matters: Training-Free Localized Scaling for Diffusion Models</a>
+          </papertitle>
+          <div class="paper-info">
+            <strong>Qin Ren</strong>, Yufei Wang, Lanqing Guo, Wen Zhang, Zhiwen Fan, Chenyu You
+          </div>
+          <div class="paper-info">
+            <span style="padding: 4px 8px; background: #f3f4f6; color: #4b5563; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #d1d5db;">Preprint</span> 2025
+          </div>
+          <div class="paper-links">
+            <a href="#" class="abstract-link" onclick="toggleAbstract(this); return false;">abstract</a>
+            <span class="separator">/</span>
+            <a href="https://arxiv.org/abs/2511.19917">paper</a>
+            <span class="separator">/</span>
+            <a href="https://arxiv.org/abs/2511.19917">code</a>
+          </div>
+          <div class="paper-abstract">
+            <p>Diffusion models have become the dominant paradigm in text-to-image generation, and test-time scaling (TTS) further improves quality by allocating more computation during inference. However, existing TTS methods operate at the full-image level, overlooking the fact that image quality is often spatially heterogeneous. This leads to unnecessary computation on already satisfactory regions and insufficient correction of localized defects. In this paper, we explore a new direction - Localized TTS - that adaptively resamples defective regions while preserving high-quality regions, thereby substantially reducing the search space. This paradigm poses two central challenges: accurately localizing defects and maintaining global consistency. We propose LoTTS, the first fully training-free framework for localized TTS. For defect localization, LoTTS contrasts cross- and self-attention signals under quality-aware prompts (e.g., high-quality vs. low-quality) to identify defective regions, and then refines them into coherent masks. For consistency, LoTTS perturbs only defective regions and denoises them locally, ensuring that corrections remain confined while the rest of the image remains undisturbed. Extensive experiments on SD2.1, SDXL, and FLUX demonstrate that LoTTS achieves state-of-the-art performance: it consistently improves both local quality and global fidelity, while reducing GPU cost by 2-4x compared to Best-of-N sampling. These findings establish localized TTS as a promising new direction for scaling diffusion models at inference time.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="paper-card selected-paper">
+        <div class="paper-image">
+          <img src="images/sprout.png" alt="Sprout paper">
+        </div>
+        <div class="paper-content">
+          <papertitle>
+            <a href="https://arxiv.org/abs/2511.19953">Supervise Less, See More: Training-free Nuclear Instance Segmentation with Prototype-Guided Prompting</a>
+          </papertitle>
+          <div class="paper-info">
+            Wen Zhang, <strong>Qin Ren</strong>, Wenjing Liu, Haibin Ling, Chenyu You
+          </div>
+          <div class="paper-info">
+            <span style="padding: 4px 8px; background: #f3f4f6; color: #4b5563; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #d1d5db;">Preprint</span> 2025
+          </div>
+          <div class="paper-links">
+            <a href="#" class="abstract-link" onclick="toggleAbstract(this); return false;">abstract</a>
+            <span class="separator">/</span>
+            <a href="https://arxiv.org/abs/2511.19953">paper</a>
+            <span class="separator">/</span>
+            <a href="https://arxiv.org/abs/2511.19953">code</a>
+          </div>
+          <div class="paper-abstract">
+            <p>Accurate nuclear instance segmentation is a pivotal task in computational pathology, supporting data-driven clinical insights and facilitating downstream translational applications. While large vision foundation models have shown promise for zero-shot biomedical segmentation, most existing approaches still depend on dense supervision and computationally expensive fine-tuning. Consequently, training-free methods present a compelling research direction, yet remain largely unexplored. In this work, we introduce SPROUT, a fully training- and annotation-free prompting framework for nuclear instance segmentation. SPROUT leverages histology-informed priors to construct slide-specific reference prototypes that mitigate domain gaps. These prototypes progressively guide feature alignment through a partial optimal transport scheme. The resulting foreground and background features are transformed into positive and negative point prompts, enabling the Segment Anything Model (SAM) to produce precise nuclear delineations without any parameter updates. Extensive experiments across multiple histopathology benchmarks demonstrate that SPROUT achieves competitive performance without supervision or retraining, establishing a novel paradigm for scalable, training-free nuclear instance segmentation in pathology.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="paper-card selected-paper">
+        <div class="paper-image">
+          <img src="images/TTA.jpg" alt="TTA paper">
+        </div>
+        <div class="paper-content">
+          <papertitle>
+            <a href="https://arxiv.org/abs/2511.18089">Together, Then Apart: Revisiting Multimodal Survival Analysis via a Min-Max Perspective</a>
+          </papertitle>
+          <div class="paper-info">
+            Wenjing Liu, <strong>Qin Ren</strong>, Wen Zhang, Yuewei Lin, Haibin Ling, Chenyu You
+          </div>
+          <div class="paper-info">
+            <span style="padding: 4px 8px; background: #f3f4f6; color: #4b5563; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #d1d5db;">Preprint</span> 2025
+          </div>
+          <div class="paper-links">
+            <a href="#" class="abstract-link" onclick="toggleAbstract(this); return false;">abstract</a>
+            <span class="separator">/</span>
+            <a href="https://arxiv.org/abs/2511.18089">paper</a>
+            <span class="separator">/</span>
+            <a href="https://github.com/Y-Research-SBU/TTA">code</a>
+          </div>
+          <div class="paper-abstract">
+            <p>Integrating heterogeneous modalities such as histopathology and genomics is central to advancing survival analysis, yet most existing methods prioritize cross-modal alignment through attention-based fusion mechanisms, often at the expense of modality-specific characteristics. This overemphasis on alignment leads to representation collapse and reduced diversity. In this work, we revisit multi-modal survival analysis via the dual lens of alignment and distinctiveness, positing that preserving modality-specific structure is as vital as achieving semantic coherence. In this paper, we introduce Together-Then-Apart (TTA), a unified min-max optimization framework that simultaneously models shared and modality-specific representations. The Together stage minimizes semantic discrepancies by aligning embeddings via shared prototypes, guided by an unbalanced optimal transport objective that adaptively highlights informative tokens. The Apart stage maximizes representational diversity through modality anchors and a contrastive regularizer that preserve unique modality information and prevent feature collapse. Extensive experiments on five TCGA benchmarks show that TTA consistently outperforms state-of-the-art methods. Beyond empirical gains, our formulation provides a new theoretical perspective of how alignment and distinctiveness can be jointly achieved for robust, interpretable, and biologically meaningful multi-modal survival analysis.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="paper-card selected-paper">
+        <div class="paper-image">
+          <img src="images/SPOT.jpg" alt="SPOT paper">
+        </div>
+        <div class="paper-content">
+          <papertitle>
+            <a href="https://soonera.github.io/qinren/">SPOT: CAM-Guided Optimal Transport for Weakly Supervised Semantic Segmentation</a>
+          </papertitle>
+          <div class="paper-info">
+            Bingqin Wang, <strong>Qin Ren</strong>, Wen Zhang, Yuting He, Chenyu You
+          </div>
+          <div class="paper-info">
+            <span style="padding: 4px 8px; background: #f3f4f6; color: #4b5563; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #d1d5db;">Preprint</span> 2025
+          </div>
+          <div class="paper-links">
+            <a href="#" class="abstract-link" onclick="toggleAbstract(this); return false;">abstract</a>
+            <span class="separator">/</span>
+            <a href="https://soonera.github.io/qinren/">paper</a>
+            <span class="separator">/</span>
+            <a href="https://soonera.github.io/qinren/">code</a>
+          </div>
+          <div class="paper-abstract">
+            <p>Weakly Supervised Semantic Segmentation (WSSS) relies on Class Activation Maps (CAMs) to extract spatial cues from image-level labels. However, CAMs tend to focus on the most distinctive object parts, leaving large regions under-explored and resulting in incomplete, spatially fragmented pseudo-labels. Prior work attempts to improve performance through prototype learning or CAM aggregation, but such methods lack explicit modeling of the global pixel–class distribution and rely on rigid marginal-constraint formulations that tend to collapse under large intra-class variation. We introduce SPOT, a simple yet effective framework that formulates pseudo-label generation as CAM-guided optimal transport (OT) over dense features extracted from a pretrained visual encoder. SPOT enforces soft CAM marginals to derive a global pixel-to-class assignment, progressively refining pseudo-labels into more accurate and spatially coherent segmentations while suppressing noise. SPOT handles ambiguous pixels through a gradual reallocation process, guiding uncertain regions toward confident classes under an annealed schedule, leading to more stable and semantically consistent supervision. SPOT further enhances spatial coherence by clustering the evolving pseudo-labels with k-means, merging fragmented activations into coherent object regions. A multi-scale OT formulation improves efficiency, accelerating label generation without compromising accuracy. We achieve a notable performance gain on PASCAL VOC (+6.8%) and MS COCO (+3.2%) compared to seminal baselines, demonstrating the effectiveness of our SPOT. Our framework opens up new possibilities for optimal transport to achieve globally consistent supervision under limited labels.</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="paper-card selected-paper">
         <div class="paper-image">
           <img src="images/otsurv.png" alt="OTSurv paper">
         </div>
@@ -62,11 +222,17 @@
             <strong>Qin Ren</strong>, Yifan Wang, Ruogu Fang, Haibin Ling, Chenyu You
           </div>
           <div class="paper-info">
-            <span style="padding: 4px 8px; background: #e0e7ff; color: #3730a3; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #c7d2fe;">MICCAI 2025</span>
+            <span style="padding: 4px 8px; background: #e0e7ff; color: #3730a3; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #c7d2fe;">MICCAI</span> 2025
           </div>
           <div class="paper-links">
+            <a href="#" class="abstract-link" onclick="toggleAbstract(this); return false;">abstract</a>
+            <span class="separator">/</span>
+            <a href="https://arxiv.org/abs/2506.20741v2">paper</a>
+            <span class="separator">/</span>
             <a href="https://github.com/Y-Research-SBU/OTSurv">code</a>
-            <a href="data/otsurv.bib">bibtex</a>
+          </div>
+          <div class="paper-abstract">
+            <p>Survival prediction using whole slide images (WSIs) can be formulated as a multiple instance learning (MIL) problem. However, existing MIL methods often fail to explicitly capture pathological heterogeneity within WSIs, both globally -- through long-tailed morphological distributions, and locally through -- tile-level prediction uncertainty. Optimal transport (OT) provides a principled way of modeling such heterogeneity by incorporating marginal distribution constraints. Building on this insight, we propose OTSurv, a novel MIL framework from an optimal transport perspective. Specifically, OTSurv formulates survival predictions as a heterogeneity-aware OT problem with two constraints: (1) global long-tail constraint that models prior morphological distributions to avert both mode collapse and excessive uniformity by regulating transport mass allocation, and (2) local uncertainty-aware constraint that prioritizes high-confidence patches while suppressing noise by progressively raising the total transport mass. We then recast the initial OT problem, augmented by these constraints, into an unbalanced OT formulation that can be solved with an efficient, hardware-friendly matrix scaling algorithm. Empirically, OTSurv sets new state-of-the-art results across six popular benchmarks, achieving an absolute 3.6% improvement in average C-index. In addition, OTSurv achieves statistical significance in log-rank tests and offers high interpretability, making it a powerful tool for survival prediction in digital pathology. Our codes are available at <a href="https://github.com/Y-Research-SBU/OTSurv" style="color: #6366f1; text-decoration: none;">https://github.com/Y-Research-SBU/OTSurv</a>.</p>
           </div>
         </div>
       </div>
@@ -83,16 +249,22 @@
             Shanlin Sun<sup>*</sup>, Yifan Wang<sup>*</sup>, Hanwen Zhang<sup>*</sup>, Yifeng Xiong, <strong>Qin Ren</strong>, Ruogu Fang, Xiaohui Xie, Chenyu You
           </div>
           <div class="paper-info">
-            <span style="padding: 4px 8px; background: #e0e7ff; color: #3730a3; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #c7d2fe;">ICCV 2025</span>
+            <span style="padding: 4px 8px; background: #e0e7ff; color: #3730a3; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #c7d2fe;">ICCV</span> 2025
           </div>
           <div class="paper-links">
+            <a href="#" class="abstract-link" onclick="toggleAbstract(this); return false;">abstract</a>
+            <span class="separator">/</span>
+            <a href="https://arxiv.org/abs/2508.14461">paper</a>
+            <span class="separator">/</span>
             <a href="https://github.com/Siwensun/Ouroboros">code</a>
-            <a href="data/ouroborous.bib">bibtex</a>
+          </div>
+          <div class="paper-abstract">
+            <p>While multi-step diffusion models have advanced both forward and inverse rendering, existing approaches often treat these problems independently, leading to cycle inconsistency and slow inference speed. In this work, we present Ouroboros, a framework composed of two single-step diffusion models that handle forward and inverse rendering with mutual reinforcement. Our approach extends intrinsic decomposition to both indoor and outdoor scenes and introduces a cycle consistency mechanism that ensures coherence between forward and inverse rendering outputs. Experimental results demonstrate state-of-the-art performance across diverse scenes while achieving substantially faster inference speed compared to other diffusion-based methods. We also demonstrate that Ouroboros can transfer to video decomposition in a training-free manner, reducing temporal inconsistency in video sequences while maintaining high-quality per-frame inverse rendering.</p>
           </div>
         </div>
       </div>
 
-      <div class="paper-card">
+      <div class="paper-card selected-paper">
         <div class="paper-image">
           <img src="images/deepgem.png" alt="DeepGEM paper">
         </div>
@@ -104,11 +276,21 @@
             Yu Zhao<sup>*</sup>, Shan Xiong<sup>*</sup>, <strong>Qin Ren</strong><sup>*</sup>, Jun Wang<sup>*</sup>, Min Li<sup>*</sup>, Lin Yang<sup>*</sup>, <em>et al.</em>
           </div>
           <div class="paper-info">
-            <span style="padding: 4px 8px; background: #fef3c7; color: #92400e; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #fde68a;">The Lancet Oncology</span>, 2024
+            <span style="padding: 4px 8px; background: #fef3c7; color: #92400e; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #fde68a;">The Lancet Oncology</span> 2024 <strong style="color: #8b0000; font-weight: 700;">(IF: 51.1)</strong>
           </div>
           <div class="paper-links">
+            <a href="#" class="abstract-link" onclick="toggleAbstract(this); return false;">abstract</a>
+            <span class="separator">/</span>
+            <a href="https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(24)00599-0/fulltext">paper</a>
+            <span class="separator">/</span>
             <a href="https://github.com/TencentAILabHealthcare/DeepGEM">code</a>
-            <a href="data/deepgem.bib">bibtex</a>
+          </div>
+          <div class="paper-abstract">
+            <p><strong>Summary</strong></p>
+            <p><strong>Background</strong> Accurate detection of driver gene mutations is crucial for treatment planning and predicting prognosis for patients with lung cancer. Conventional genomic testing requires high-quality tissue samples and is time-consuming and resource-consuming, and as a result, is not available for most patients, especially those in low-resource settings. We aimed to develop an annotation-free Deep learning-enabled artificial intelligence method to predict GEne Mutations (DeepGEM) from routinely acquired histological slides.</p>
+            <p><strong>Methods</strong> In this multicentre retrospective study, we collected data for patients with lung cancer who had a biopsy and multigene next-generation sequencing done at 16 hospitals in China (with no restrictions on age, sex, or histology type), to form a large multicentre dataset comprising paired pathological image and multiple gene mutation information. We also included patients from The Cancer Genome Atlas (TCGA) publicly available dataset. Our developed model is an instance-level and bag-level co-supervised multiple instance learning method with label disambiguation design. We trained and initially tested the DeepGEM model on the internal dataset (patients from the First Affiliated Hospital of Guangzhou Medical University, Guangzhou, China), and further evaluated it on the external dataset (patients from the remaining 15 centres) and the public TCGA dataset. Additionally, a dataset of patients from the same medical centre as the internal dataset, but without overlap, was used to evaluate the model's generalisation ability to biopsy samples from lymph node metastases. The primary objective was the performance of the DeepGEM model in predicting gene mutations (area under the curve [AUC] and accuracy) in the four prespecified groups (ie, the hold-out internal test set, multicentre external test set, TCGA set, and lymph node metastases set).</p>
+            <p><strong>Findings</strong> Assessable pathological images and multigene testing information were available for 3697 patients who had biopsy and multigene next-generation sequencing done between Jan 1, 2018, and March 31, 2022, at the 16 centres. We excluded 60 patients with low-quality images. We included 3767 images from 3637 consecutive patients (1978 [54·4%] men, 1514 [41·6%] women, 145 [4·0%] unknown; median age 60 years [IQR 52–67]), with 1716 patients in the internal dataset, 1718 patients in the external dataset, and 203 patients in the lymph node metastases dataset. The DeepGEM model showed robust performance in the internal dataset: for excisional biopsy samples, AUC values for gene mutation prediction ranged from 0·90 (95% CI 0·77–1·00) to 0·97 (0·93–1·00) and accuracy values ranged from 0·91 (0·85–0·98) to 0·97 (0·93–1·00); for aspiration biopsy samples, AUC values ranged from 0·85 (0·80–0·91) to 0·95 (0·86–1·00) and accuracy values ranged from 0·79 (0·74–0·85) to 0·99 (0·98–1·00). In the multicentre external dataset, for excisional biopsy samples, AUC values ranged from 0·80 (95% CI 0·75–0·85) to 0·91 (0·88–1·00) and accuracy values ranged from 0·79 (0·76–0·82) to 0·95 (0·93–0·96); for aspiration biopsy samples, AUC values ranged from 0·76 (0·70–0·83) to 0·87 (0·80–0·94) and accuracy values ranged from 0·76 (0·74–0·79) to 0·97 (0·96–0·98). The model also showed strong performance on the TCGA dataset (473 patients; 535 slides; AUC values ranged from 0·82 [95% CI 0·71–0·93] to 0·96 [0·91–1·00], accuracy values ranged from 0·79 [0·70–0·88] to 0·95 [0·90–1·00]). The DeepGEM model, trained on primary region biopsy samples, could be generalised to biopsy samples from lymph node metastases, with AUC values of 0·91 (95% CI 0·88–0·94) for EGFR and 0·88 (0·82–0·93) for KRAS and accuracy values of 0·85 (0·80–0·88) for EGFR and 0·95 (0·92–0·96) for KRAS and showed potential for prognostic prediction of targeted therapy. The model generated spatial gene mutation maps, indicating gene mutation spatial distribution.</p>
+            <p><strong>Interpretation</strong> We developed an AI-based method that can provide an accurate, timely, and economical prediction of gene mutation and mutation spatial distribution. The method showed substantial potential as an assistive tool for guiding the clinical treatment of patients with lung cancer.</p>
           </div>
         </div>
       </div>
@@ -125,16 +307,22 @@
             Fan Xu<sup>*</sup>, Yu Zhao<sup>*</sup>, Bingzhe Wu, Yueshan Huang, <strong>Qin Ren</strong>, Yang Xiao, Bing He, Jie Zheng, Jianhua Yao
           </div>
           <div class="paper-info">
-            <span style="padding: 4px 8px; background: #e0e7ff; color: #3730a3; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #c7d2fe;">AAAI 2024</span>
+            <span style="padding: 4px 8px; background: #e0e7ff; color: #3730a3; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #c7d2fe;">AAAI</span> 2024
           </div>
           <div class="paper-links">
+            <a href="#" class="abstract-link" onclick="toggleAbstract(this); return false;">abstract</a>
+            <span class="separator">/</span>
+            <a href="https://ojs.aaai.org/index.php/AAAI/article/view/29547">paper</a>
+            <span class="separator">/</span>
             <a href="https://github.com/Josie-xufan/LaDM3IL">code</a>
-            <a href="data/LaDM3IL.bib">bibtex</a>
+          </div>
+          <div class="paper-abstract">
+            <p>One individual human's immune repertoire consists of a huge set of adaptive immune receptors at a certain time point, representing the individual's adaptive immune state. Immune repertoire classification and associated receptor identification have the potential to make a transformative contribution to the development of novel vaccines and therapies. The vast number of instances and exceedingly low witness rate pose a great challenge to the immune repertoire classification, which can be formulated as a Massive Multiple Instance Learning (MMIL) problem. Traditional MIL methods, at both bag-level and instance-level, confront the issues of substantial computational burden or supervision ambiguity when handling massive instances. To address these issues, we propose a novel label disambiguation-based multimodal massive multiple instance learning approach (LaDM³IL) for immune repertoire classification. LaDM³IL adapts the instance-level MIL paradigm to deal with the issue of high computational cost and employs a specially-designed label disambiguation module for label correction, mitigating the impact of misleading supervision. To achieve a more comprehensive representation of each receptor, LaDM³IL leverages a multimodal fusion module with gating-based attention and tensor-fusion to integrate the information from gene segments and amino acid (AA) sequences of each immune receptor. Extensive experiments on the Cytomegalovirus (CMV) and Cancer datasets demonstrate the superior performance of the proposed LaDM³IL for both immune repertoire classification and associated receptor identification tasks. The code is publicly available at <a href="https://github.com/Josie-xufan/LaDM3IL" style="color: #6366f1; text-decoration: none;">https://github.com/Josie-xufan/LaDM3IL</a>.</p>
           </div>
         </div>
       </div>
 
-      <div class="paper-card">
+      <div class="paper-card selected-paper">
         <div class="paper-image">
           <img src="images/iibmil.png" alt="IIB-MIL paper">
         </div>
@@ -146,11 +334,17 @@
             <strong>Qin Ren</strong><sup>*</sup>, Yu Zhao<sup>*</sup>, Bing He, Bingzhe Wu, Sijie Mai, Fan Xu, Yueshan Huang, Yonghong He, Junzhou Huang, Jianhua Yao
           </div>
           <div class="paper-info">
-            <span style="padding: 4px 8px; background: #e0e7ff; color: #3730a3; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #c7d2fe;">MICCAI 2023</span>
+            <span style="padding: 4px 8px; background: #e0e7ff; color: #3730a3; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #c7d2fe;">MICCAI</span> 2023
           </div>
           <div class="paper-links">
+            <a href="#" class="abstract-link" onclick="toggleAbstract(this); return false;">abstract</a>
+            <span class="separator">/</span>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-43987-2_54">paper</a>
+            <span class="separator">/</span>
             <a href="https://github.com/TencentAILabHealthcare/IIB-MIL">code</a>
-            <a href="data/iibmil.bib">bibtex</a>
+          </div>
+          <div class="paper-abstract">
+            <p>Digital pathology plays a pivotal role in the diagnosis and interpretation of diseases and has drawn increasing attention in modern healthcare. Due to the huge gigapixel-level size and diverse nature of whole-slide images (WSIs), analyzing them through multiple instance learning (MIL) has become a widely-used scheme, which, however, faces the challenges that come with the weakly supervised nature of MIL. Conventional MIL methods mostly either utilized instance-level or bag-level supervision to learn informative representations from WSIs for downstream tasks. In this work, we propose a novel MIL method for pathological image analysis with integrated instance-level and bag-level supervision (termed IIB-MIL). More importantly, to overcome the weakly supervised nature of MIL, we design a label-disambiguation-based instance-level supervision for MIL using Prototypes and Confidence Bank to reduce the impact of noisy labels. Extensive experiments demonstrate that IIB-MIL outperforms state-of-the-art approaches in both benchmarking datasets and addressing the challenging practical clinical task. The code is available at <a href="https://github.com/TencentAILabHealthcare/IIB-MIL" style="color: #6366f1; text-decoration: none;">https://github.com/TencentAILabHealthcare/IIB-MIL</a>.</p>
           </div>
         </div>
       </div>
@@ -167,73 +361,47 @@
             Yang Xiao<sup>*</sup>, Yueshan Huang<sup>*</sup>, Yu Zhao<sup>*</sup>, Fan Xu, <strong>Qin Ren</strong>, Bing He, Jianhua Yao, Xiao Liu
           </div>
           <div class="paper-info">
-            <span style="padding: 4px 8px; background: #e0e7ff; color: #3730a3; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #c7d2fe;">BIBM 2023</span>
+            <span style="padding: 4px 8px; background: #e0e7ff; color: #3730a3; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #c7d2fe;">BIBM</span> 2023
           </div>
           <div class="paper-links">
+            <a href="#" class="abstract-link" onclick="toggleAbstract(this); return false;">abstract</a>
+            <span class="separator">/</span>
+            <a href="https://ieeexplore.ieee.org/abstract/document/10385479">paper</a>
+            <span class="separator">/</span>
             <a href="https://github.com/mumuyang666/Multimodal-AIR-BERT">code</a>
-            <a href="data/MultimodalAIRBERT.bib">bibtex</a>
+          </div>
+          <div class="paper-abstract">
+            <p>The in silico prediction of antigen specificity in adaptive immune receptors (AIRs), such as T-cell receptors (TCRs), is essential for understanding immunological processes and developing targeted therapies. The V(D)J gene rearrangement is a critical biological process that generates diversity in amino acid (AA) sequences in antigen-binding regions, enabling AIRs to recognize a wide range of antigens from various pathogens and "altered self cells" observed in cancers. The huge diversity of AIRs presents a significant challenge to existing computational methods for antigen specificity prediction. To address these complexities, we introduce Multimodal-AIR-BERT, a novel multimodal pre-trained model aimed at enhancing the prediction of antigen-binding specificity in TCRs. It comprises a pre-trained sequence encoder, a gene encoder, and a multimodal fusion module with gating-based attention and tensor fusion to calibrate and integrate the V(D)J gene and AA sequence features of TCRs, thereby generating more informative representations. The integration of V(D)J gene information, which provides insights often unobtainable from sequences alone, benefits Multimodal-AIR-BERT in performance enhancement compared to its sequence-modality-only counterpart. Collectively, our work provides an advancement in the accurate prediction of antigen-binding specificity. As the precision of this specificity prediction improves, it can potentially pave the way for targeted immune therapies and deeper insights into the interactions within the immune system.</p>
           </div>
         </div>
       </div>
 
-      <!-- 项目部分 -->
-      <heading>Projects</heading>
-      
-      <div class="project-card">
-        <div class="project-image">
-          <img src="images/mmselfsup.png" alt="MMSelfSup project">
-        </div>
-        <div class="project-content">
-          <papertitle>MMSelfSup, an open-source self-supervised representation learning toolbox</papertitle>
-          <p>
-            During my internship at <a href="https://openmmlab.com/">OpenMMLab</a>, I was one of the main contributors to this repository, working on core implementations with 
-            <a href="https://github.com/fangyixiao18">Yixiao Fang</a>, 
-            <a href="https://github.com/YuanLiuuuuuu">Yuan Liu</a>, and 
-            <a href="https://github.com/tonysy">Songyang Zhang</a>.
-          </p>
-          <div class="project-stats">
-            <span class="github-stars" id="mmselfsup-stars">⭐ Loading...</span>
-            <a href="https://github.com/open-mmlab/mmselfsup" style="padding: 6px 12px; background: #3182ce; color: white; text-decoration: none; border-radius: 4px; font-size: 0.85rem; font-weight: 500; border: 1px solid #3182ce; display: inline-block; margin-left: 8px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.background='#2c5aa0'; this.style.borderColor='#2c5aa0'; this.style.transform='translateY(-1px)'; this.style.boxShadow='0 2px 6px rgba(49, 130, 206, 0.3)'" onmouseout="this.style.background='#3182ce'; this.style.borderColor='#3182ce'; this.style.transform='translateY(0)'; this.style.boxShadow='none'">GitHub</a>
-            <a href="https://mmselfsup.readthedocs.io/en/latest/" style="padding: 6px 12px; background: #3182ce; color: white; text-decoration: none; border-radius: 4px; font-size: 0.85rem; font-weight: 500; border: 1px solid #3182ce; display: inline-block; margin-left: 8px; cursor: pointer; transition: all 0.2s ease;" onmouseover="this.style.background='#2c5aa0'; this.style.borderColor='#2c5aa0'; this.style.transform='translateY(-1px)'; this.style.boxShadow='0 2px 6px rgba(49, 130, 206, 0.3)'" onmouseout="this.style.background='#3182ce'; this.style.borderColor='#3182ce'; this.style.transform='translateY(0)'; this.style.boxShadow='none'">Documentation</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- 服务部分 -->
-      <heading>Service</heading>
+      <heading id="services">Professional Services</heading>
       
       <ul class="service-list">
-        <li><strong>Conference Reviewer</strong>: MICCAI 2024, MICCAI 2025</li>
-        <li><strong>Journal Reviewer</strong>: TMI, BIB, TNNLS, Pattern Recognition</li>
-        <li><strong>Teaching Assistant</strong>: IAE 101 (Fall 2024), CSE 590 (Spring 2025)</li>
+        <li><strong>Conference Reviewer</strong>: MICCAI <span style="color: #718096;">2024–2025</span>, CVPR <span style="color: #718096;">2026</span></li>
+        <li><strong>Journal Reviewer</strong>: IEEE TMI, IEEE TNNLS, Pattern Recognition, Brief. Bioinform.</li>
+        <li><strong>Teaching Assistant</strong>: IAE 101 <span style="color: #718096;">(Fall 2024, SBU)</span>, CSE 590 <span style="color: #718096;">(Spring 2025, SBU)</span></li>
       </ul>
 
-      <!-- 荣誉部分 -->
-      <heading>Honors</heading>
+      <heading id="honors">Honors and Awards</heading>
       
       <ul class="honors-list">
-        <li>MICCAI 2025 NIH Registration Grant</li>
-        <li>John Hennessy Fellowship</li>
-        <li>AI Internship Excellence Award</li>
-        <li>School Merit Student</li>
-        <li>School Outstanding Graduate</li>
-        <li>National Encouragement scholarship</li>
+        <li><strong>MICCAI 2025 NIH Registration Grant</strong>, <span style="color: #718096;">MICCAI, 2025</span></li>
+        <li><strong>John Hennessy Fellowship</strong>, <span style="color: #718096;">Stony Brook University, 2024-2026</span></li>
+        <li><strong>AI Internship Excellence Award</strong>, <span style="color: #718096;">Tsinghua University, 2022</span></li>
+        <li><strong>School Outstanding Graduate</strong>, <span style="color: #718096;">Huazhong University of Science and Technology, 2020</span></li>
+        <li><strong>National Encouragement Scholarship</strong>, <span style="color: #718096;">Huazhong University of Science and Technology, 2019</span></li>
+        <li><strong>School Merit Student</strong>, <span style="color: #718096;">Huazhong University of Science and Technology, 2018</span></li>
       </ul>
 
       <div class="visitor-map-container">
-        <h3 style="margin-bottom: 10px; color: #4a5568; font-size: 1rem;">Visitor Map</h3>
-        <script type="text/javascript" id="clstr_globe" 
-            src="https://clustrmaps.com/globe.js?d=t0Uazb2-Ef5xIH5b5lGczYM6ikBtWxsSUtvIgxm4ZMg">
-        </script>
+        <a href="https://clustrmaps.com/site/1bqj1" title="Visit tracker">
+          <img src="https://www.clustrmaps.com/map_v2.png?d=t0Uazb2-Ef5xIH5b5lGczYM6ikBtWxsSUtvIgxm4ZMg&cl=ffffff" style="width: 100%; max-width: 250px; height: auto;" />
+        </a>
       </div>
     </section>
 
-    <!-- 页脚 -->
-    <footer class="footer">
-      <p>
-        Template from <a href="https://jonbarron.info/">this awesome website</a>.
-      </p>
-    </footer>
   </div>
 
   <!-- Default Statcounter code for Personal Website -->
@@ -256,19 +424,86 @@
             const response = await fetch(`https://api.github.com/repos/${repo}`);
             const data = await response.json();
             if (data.stargazers_count !== undefined) {
-                document.getElementById(elementId).innerHTML = `⭐ ${data.stargazers_count} Stars`;
+                document.getElementById(elementId).innerHTML = `⭐ ${data.stargazers_count} stars`;
             } else {
-                document.getElementById(elementId).innerHTML = "⭐ Stars unavailable";
+                document.getElementById(elementId).innerHTML = "⭐ stars unavailable";
             }
         } catch (error) {
-            console.error("Error fetching GitHub Stars:", error);
-            document.getElementById(elementId).innerHTML = "⭐ Stars unavailable";
+            console.error("Error fetching GitHub stars:", error);
+            document.getElementById(elementId).innerHTML = "⭐ stars unavailable";
         }
     }
     
     document.addEventListener('DOMContentLoaded', function() {
         fetchGitHubStars("open-mmlab/mmselfsup", "mmselfsup-stars");
+        setInterval(function() {
+            fetchGitHubStars("open-mmlab/mmselfsup", "mmselfsup-stars");
+        }, 300000);
+        filterPapers('selected');
+    });
+
+    function toggleAbstract(link) {
+        const paperCard = link.closest('.paper-card');
+        const abstractDiv = paperCard.querySelector('.paper-abstract');
+        
+        if (abstractDiv.classList.contains('show')) {
+            abstractDiv.classList.remove('show');
+            link.textContent = 'abstract';
+        } else {
+            document.querySelectorAll('.paper-abstract.show').forEach(function(openAbstract) {
+                openAbstract.classList.remove('show');
+                const openLink = openAbstract.previousElementSibling.querySelector('.abstract-link');
+                if (openLink) {
+                    openLink.textContent = 'abstract';
+                }
+            });
+            
+            abstractDiv.classList.add('show');
+            link.textContent = 'abstract [hide]';
+        }
+    }
+
+    function filterPapers(filter) {
+        const allPapers = document.querySelectorAll('.paper-card');
+        const selectedBtn = document.getElementById('selectedBtn');
+        const allBtn = document.getElementById('allBtn');
+        
+        if (filter === 'selected') {
+            allPapers.forEach(function(paper) {
+                if (paper.classList.contains('selected-paper')) {
+                    paper.classList.remove('hidden');
+                } else {
+                    paper.classList.add('hidden');
+                }
+            });
+            selectedBtn.classList.add('active');
+            allBtn.classList.remove('active');
+        } else {
+            allPapers.forEach(function(paper) {
+                paper.classList.remove('hidden');
+            });
+            allBtn.classList.add('active');
+            selectedBtn.classList.remove('active');
+        }
+    }
+    
+    document.querySelectorAll('.table-of-contents a').forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                const offsetTop = targetElement.offsetTop - 20;
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
     });
   </script>
+  <footer style="text-align: center; padding: 30px 20px; font-size: 0.85rem; color: #718096; border-top: 1px solid #e2e8f0; background: #f7fafc; margin-top: 40px;">
+    <p>© 2025 Qin Ren. All rights reserved.</p>
+  </footer>
 </body>
 </html>
