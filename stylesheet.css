@@ -558,7 +558,7 @@ papertitle a {
 
 papertitle a:hover {
   color: #1e3a8a;
-  /* border-bottom-color: #1673D1; */
+  text-decoration: underline;
 }
 
 .paper-info {
@@ -816,6 +816,10 @@ papertitle a:hover {
 .news-list li strong {
   color: #4a5568;
   font-weight: 500;
+}
+
+.news-list li a:hover {
+  text-decoration: underline !important;
 }
 
 .research-interests-list li {
