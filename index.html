@@ -62,7 +62,7 @@
       <heading id="research-interests">Research Interests</heading>
       
       <p style="margin-bottom: 15px; font-size: 1rem;">
-        I study the gap between powerful AI and the messy world it faces, asking <strong>what AI should do when it doesn't know</strong>.
+        My research aims to develop a scientific understanding of intelligence. In particular, we focus on human-like intelligence: systems grounded in deep neural networks that are broadly adaptive and general-purpose, with capabilities that emerge through embodied interaction in rich, complex environments. Questions we are currently studying include:  
       </p>
       
       <ul class="service-list research-interests-list" style="margin-top: 10px;">
@@ -176,35 +176,6 @@
           </div>
           <div class="paper-abstract">
             <p>Integrating heterogeneous modalities such as histopathology and genomics is central to advancing survival analysis, yet most existing methods prioritize cross-modal alignment through attention-based fusion mechanisms, often at the expense of modality-specific characteristics. This overemphasis on alignment leads to representation collapse and reduced diversity. In this work, we revisit multi-modal survival analysis via the dual lens of alignment and distinctiveness, positing that preserving modality-specific structure is as vital as achieving semantic coherence. In this paper, we introduce Together-Then-Apart (TTA), a unified min-max optimization framework that simultaneously models shared and modality-specific representations. The Together stage minimizes semantic discrepancies by aligning embeddings via shared prototypes, guided by an unbalanced optimal transport objective that adaptively highlights informative tokens. The Apart stage maximizes representational diversity through modality anchors and a contrastive regularizer that preserve unique modality information and prevent feature collapse. Extensive experiments on five TCGA benchmarks show that TTA consistently outperforms state-of-the-art methods. Beyond empirical gains, our formulation provides a new theoretical perspective of how alignment and distinctiveness can be jointly achieved for robust, interpretable, and biologically meaningful multi-modal survival analysis.</p>
-          </div>
-        </div>
-      </div>
-
-
-
-      <div class="paper-card selected-paper">
-        <div class="paper-image">
-          <img src="images/SPOT.jpg" alt="SPOT paper">
-        </div>
-        <div class="paper-content">
-          <papertitle>
-            <a href="https://soonera.github.io/qinren/">SPOT: CAM-Guided Optimal Transport for Weakly Supervised Semantic Segmentation</a>
-          </papertitle>
-          <div class="paper-info">
-            Bingqin Wang, <strong>Qin Ren</strong>, Wen Zhang, Yuting He, Chenyu You
-          </div>
-          <div class="paper-info">
-            <span style="padding: 4px 8px; background: #f3f4f6; color: #4b5563; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #d1d5db;">Preprint</span> 2025
-          </div>
-          <div class="paper-links">
-            <a href="#" class="abstract-link" onclick="toggleAbstract(this); return false;">abstract</a>
-            <span class="separator">/</span>
-            <a href="https://soonera.github.io/qinren/">paper</a>
-            <span class="separator">/</span>
-            <a href="https://soonera.github.io/qinren/">code</a>
-          </div>
-          <div class="paper-abstract">
-            <p>Weakly Supervised Semantic Segmentation (WSSS) relies on Class Activation Maps (CAMs) to extract spatial cues from image-level labels. However, CAMs tend to focus on the most distinctive object parts, leaving large regions under-explored and resulting in incomplete, spatially fragmented pseudo-labels. Prior work attempts to improve performance through prototype learning or CAM aggregation, but such methods lack explicit modeling of the global pixel–class distribution and rely on rigid marginal-constraint formulations that tend to collapse under large intra-class variation. We introduce SPOT, a simple yet effective framework that formulates pseudo-label generation as CAM-guided optimal transport (OT) over dense features extracted from a pretrained visual encoder. SPOT enforces soft CAM marginals to derive a global pixel-to-class assignment, progressively refining pseudo-labels into more accurate and spatially coherent segmentations while suppressing noise. SPOT handles ambiguous pixels through a gradual reallocation process, guiding uncertain regions toward confident classes under an annealed schedule, leading to more stable and semantically consistent supervision. SPOT further enhances spatial coherence by clustering the evolving pseudo-labels with k-means, merging fragmented activations into coherent object regions. A multi-scale OT formulation improves efficiency, accelerating label generation without compromising accuracy. We achieve a notable performance gain on PASCAL VOC (+6.8%) and MS COCO (+3.2%) compared to seminal baselines, demonstrating the effectiveness of our SPOT. Our framework opens up new possibilities for optimal transport to achieve globally consistent supervision under limited labels.</p>
           </div>
         </div>
       </div>
