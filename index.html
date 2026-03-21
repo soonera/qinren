@@ -98,7 +98,7 @@
 
       <div class="paper-card selected-paper">
         <div class="paper-image">
-          <img src="images/scale.jpg" alt="Scale paper">
+          <img src="images/scale.png" alt="Scale paper">
         </div>
         <div class="paper-content">
           <papertitle>
@@ -115,7 +115,9 @@
             <span class="separator">/</span>
             <a href="https://arxiv.org/abs/2511.19917">paper</a>
             <span class="separator">/</span>
-            <a href="https://arxiv.org/abs/2511.19917">code</a>
+            <a href="https://github.com/Y-Research-SBU/LoTTS">code</a>
+            <span class="separator">/</span>
+            <a href="https://y-research-sbu.github.io/LoTTS">website</a>
           </div>
           <div class="paper-abstract">
             <p>Diffusion models have become the dominant paradigm in text-to-image generation, and test-time scaling (TTS) further improves quality by allocating more computation during inference. However, existing TTS methods operate at the full-image level, overlooking the fact that image quality is often spatially heterogeneous. This leads to unnecessary computation on already satisfactory regions and insufficient correction of localized defects. In this paper, we explore a new direction - Localized TTS - that adaptively resamples defective regions while preserving high-quality regions, thereby substantially reducing the search space. This paradigm poses two central challenges: accurately localizing defects and maintaining global consistency. We propose LoTTS, the first fully training-free framework for localized TTS. For defect localization, LoTTS contrasts cross- and self-attention signals under quality-aware prompts (e.g., high-quality vs. low-quality) to identify defective regions, and then refines them into coherent masks. For consistency, LoTTS perturbs only defective regions and denoises them locally, ensuring that corrections remain confined while the rest of the image remains undisturbed. Extensive experiments on SD2.1, SDXL, and FLUX demonstrate that LoTTS achieves state-of-the-art performance: it consistently improves both local quality and global fidelity, while reducing GPU cost by 2-4x compared to Best-of-N sampling. These findings establish localized TTS as a promising new direction for scaling diffusion models at inference time.</p>
