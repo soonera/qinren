@@ -14,18 +14,6 @@
 </head>
 
 <body>
-  <nav class="table-of-contents">
-    <ul>
-      <li><a href="#top">Qin Ren</a></li>
-      <li><a href="#research-interests">Research Interests</a></li>
-      <li><a href="#news">News</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#services">Professional Services</a></li>
-      <li><a href="#honors">Honors and Awards</a></li>
-    </ul>
-  </nav>
-  
   <div class="main-container">
     <section class="profile-section">
       <name id="top"><span class="name-first">Qin</span> <span class="name-last">Ren</span></name>
@@ -73,6 +61,7 @@
       
       <ul class="service-list news-list">
         <li><strong>[2026.06]</strong> Our paper <a href="https://arxiv.org/abs/2511.18089" style="color: #1e3a8a; text-decoration: none;">TTA</a> has been accepted at ECCV 2026! 🎉</li>
+        <li><strong>[2026.05]</strong> I started my research internship at <a href="https://www.uii-ai.com/" style="color: #1e3a8a; text-decoration: none;">United Imaging Intelligence (UII)</a> in Boston this summer! ✈️</li>
         <li><strong>[2026.05]</strong> Our paper <a href="https://soonera.github.io/qinren/" style="color: #1e3a8a; text-decoration: none;">FreeBridge</a> has been accepted to MICCAI 2026 <span style="color: #666666;">(early acceptance)</span>. 🎉</li>
         <li><strong>[2026.05]</strong> I successfully passed the RPE and am now a PhD candidate! 🎉</li>
         <li><strong>[2026.05]</strong> Our paper <a href="https://arxiv.org/abs/2511.19953" style="color: #1e3a8a; text-decoration: none;">SPROUT</a> has been accepted at ICML 2026! 🎉</li>
@@ -397,7 +386,7 @@
         <li><strong>School Outstanding Graduate</strong>, <span style="color: #000000;">Huazhong University of Science and Technology, 2020</span></li>
         <li><strong>National Encouragement Scholarship</strong>, <span style="color: #000000;">Huazhong University of Science and Technology, 2019</span></li>
         <li><strong>School Merit Student</strong>, <span style="color: #000000;">Huazhong University of Science and Technology, 2018</span></li>
-        <li><strong>National 3rd Prize</strong>, <span style="color: #000000;">National Electronics Design Contest, 2017</span></li>
+        <li><strong>National Prize</strong>, <span style="color: #000000;">National Electronics Design Contest, 2017</span></li>
       </ul>
     </section>
 
@@ -485,20 +474,6 @@
         }
     }
     
-    document.querySelectorAll('.table-of-contents a').forEach(function(link) {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-            if (targetElement) {
-                const offsetTop = targetElement.offsetTop - 20;
-                window.scrollTo({
-                    top: offsetTop,
-                    behavior: 'smooth'
-                });
-            }
-        });
-    });
   </script>
   <style>
     .footer-template-link:hover {
