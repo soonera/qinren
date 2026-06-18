@@ -62,7 +62,7 @@
       <ul class="service-list news-list">
         <li><strong>[2026.06]</strong> Our paper <a href="https://arxiv.org/abs/2511.18089" style="color: #1e3a8a; text-decoration: none;">TTA</a> has been accepted at ECCV 2026! 🎉</li>
         <li><strong>[2026.05]</strong> I started my research internship at <a href="https://www.uii-ai.com/" style="color: #1e3a8a; text-decoration: none;">United Imaging Intelligence (UII)</a> in Boston this summer! ✈️</li>
-        <li><strong>[2026.05]</strong> Our paper <a href="https://soonera.github.io/qinren/" style="color: #1e3a8a; text-decoration: none;">FreeBridge</a> has been accepted to MICCAI 2026 <span style="color: #666666;">(early acceptance)</span>. 🎉</li>
+        <li><strong>[2026.05]</strong> Our paper <a href="https://arxiv.org/abs/2606.11286" style="color: #1e3a8a; text-decoration: none;">FreeBridge</a> has been accepted to MICCAI 2026 <span style="color: #666666;">(early acceptance)</span>. 🎉</li>
         <li><strong>[2026.05]</strong> I successfully passed the RPE and am now a PhD candidate! 🎉</li>
         <li><strong>[2026.05]</strong> Our paper <a href="https://arxiv.org/abs/2511.19953" style="color: #1e3a8a; text-decoration: none;">SPROUT</a> has been accepted at ICML 2026! 🎉</li>
         <li><strong>[2026.01]</strong> Our project <a href="https://www.thelancet.com/journals/lanonc/article/PIIS1470-2045(24)00599-0/fulltext" style="color: #1e3a8a; text-decoration: none;">DeepGEM</a> won National First Prize at <a href="https://s.hcp.ac.cn/" style="color: #1e3a8a; text-decoration: none;">Huacai Cup</a>. 🏆</li>
@@ -115,6 +115,34 @@
           </div>
           <div class="paper-abstract">
             <p>Diffusion models have become the dominant paradigm in text-to-image generation, and test-time scaling (TTS) further improves quality by allocating more computation during inference. However, existing TTS methods operate at the full-image level, overlooking the fact that image quality is often spatially heterogeneous. This leads to unnecessary computation on already satisfactory regions and insufficient correction of localized defects. In this paper, we explore a new direction - Localized TTS - that adaptively resamples defective regions while preserving high-quality regions, thereby substantially reducing the search space. This paradigm poses two central challenges: accurately localizing defects and maintaining global consistency. We propose LoTTS, the first fully training-free framework for localized TTS. For defect localization, LoTTS contrasts cross- and self-attention signals under quality-aware prompts (e.g., high-quality vs. low-quality) to identify defective regions, and then refines them into coherent masks. For consistency, LoTTS perturbs only defective regions and denoises them locally, ensuring that corrections remain confined while the rest of the image remains undisturbed. Extensive experiments on SD2.1, SDXL, and FLUX demonstrate that LoTTS achieves state-of-the-art performance: it consistently improves both local quality and global fidelity, while reducing GPU cost by 2-4x compared to Best-of-N sampling. These findings establish localized TTS as a promising new direction for scaling diffusion models at inference time.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="paper-card selected-paper">
+        <div class="paper-image">
+          <img src="images/freebridge.png" alt="FreeBridge paper">
+        </div>
+        <div class="paper-content">
+          <papertitle>
+            <a href="https://arxiv.org/abs/2606.11286">FreeBridge: Variational Schrödinger Bridges for Cellular Transition Dynamics</a>
+          </papertitle>
+          <div class="paper-info">
+            Xurui Wang<sup>*</sup>, <strong>Qin Ren</strong><sup>*</sup>, Jun Ma, Haibin Ling, Chenyu You
+          </div>
+          <div class="paper-info">
+            <span style="padding: 4px 8px; background: #e0e7ff; color: #3730a3; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #c7d2fe;">MICCAI</span> 2026
+          </div>
+          <div class="paper-links">
+            <a href="#" class="abstract-link" onclick="toggleAbstract(this); return false;">abstract</a>
+            <span class="separator">/</span>
+            <a href="https://arxiv.org/abs/2606.11286">paper</a>
+            <span class="separator">/</span>
+            <a href="https://y-research-sbu.github.io/FreeBridge/">website</a>
+          </div>
+          <div class="paper-abstract">
+            <p>High-content imaging assays quantify cellular responses to chemical and genetic perturbations, yet continuous trajectories of individual cells are unobservable because cells are chemically fixed at acquisition. Perturbation modeling therefore reduces to inferring stochastic transport between control and treated populations observed only as separate marginals. While recent generative models achieve strong end-point alignment, boundary consistency does not determine intermediate evolution: multiple stochastic processes may connect identical marginals while traversing regions unsupported by observed single-cell morphologies. We introduce FreeBridge, a Schrödinger Bridge formulation for single-cell transition modeling under endpoint-only supervision. FreeBridge defines atomic states as instance-segmented single-cell representations, establishing a fixed cellular manifold, and learns stochastic transport constrained within this geometry via empirical latent support regularization. Across BBBC021, RxRx1, and JUMP, FreeBridge maintains competitive or improved endpoint fidelity and mechanism-of-action retention under a unified evaluation protocol; on BBBC021, it further reduces intermediate support violations. These findings highlight the importance of geometric grounding for biologically interpretable perturbation dynamics.</p>
           </div>
         </div>
       </div>
@@ -177,10 +205,9 @@
       </div>
 
 
-
       <div class="paper-card selected-paper">
         <div class="paper-image">
-          <img src="images/otsurv.png" alt="OTSurv paper">
+          <img src="images/sprout.png" alt="Sprout paper">
         </div>
         <div class="paper-content">
           <papertitle>
