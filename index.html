@@ -60,6 +60,7 @@
       <heading id="news">News</heading>
       
       <ul class="service-list news-list">
+        <li><strong>[2026.07]</strong> Our paper <a href="https://doi.org/10.1016/j.media.2026.104192" style="color: #1e3a8a; text-decoration: none;">CIB-MIL</a> is now available online in Medical Image Analysis (MedIA)! 🎉</li>
         <li><strong>[2026.06]</strong> Our paper <a href="https://arxiv.org/abs/2511.18089" style="color: #1e3a8a; text-decoration: none;">TTA</a> has been accepted at ECCV 2026! 🎉</li>
         <li><strong>[2026.05]</strong> I started my research internship at <a href="https://www.uii-ai.com/" style="color: #1e3a8a; text-decoration: none;">United Imaging Intelligence (UII)</a> in Boston this summer! ✈️</li>
         <li><strong>[2026.05]</strong> Our paper <a href="https://arxiv.org/abs/2606.11286" style="color: #1e3a8a; text-decoration: none;">FreeBridge</a> has been accepted to MICCAI 2026 <span style="color: #666666;">(early acceptance)</span>. 🎉</li>
@@ -200,6 +201,36 @@
           </div>
           <div class="paper-abstract">
             <p>Integrating heterogeneous modalities such as histopathology and genomics is central to advancing survival analysis, yet most existing methods prioritize cross-modal alignment through attention-based fusion mechanisms, often at the expense of modality-specific characteristics. This overemphasis on alignment leads to representation collapse and reduced diversity. In this work, we revisit multi-modal survival analysis via the dual lens of alignment and distinctiveness, positing that preserving modality-specific structure is as vital as achieving semantic coherence. In this paper, we introduce Together-Then-Apart (TTA), a unified min-max optimization framework that simultaneously models shared and modality-specific representations. The Together stage minimizes semantic discrepancies by aligning embeddings via shared prototypes, guided by an unbalanced optimal transport objective that adaptively highlights informative tokens. The Apart stage maximizes representational diversity through modality anchors and a contrastive regularizer that preserve unique modality information and prevent feature collapse. Extensive experiments on five TCGA benchmarks show that TTA consistently outperforms state-of-the-art methods. Beyond empirical gains, our formulation provides a new theoretical perspective of how alignment and distinctiveness can be jointly achieved for robust, interpretable, and biologically meaningful multi-modal survival analysis.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="paper-card selected-paper">
+        <div class="paper-image">
+          <img src="images/CIB-MIL.jpg" alt="CIB-MIL paper">
+        </div>
+        <div class="paper-content">
+          <papertitle>
+            <a href="https://doi.org/10.1016/j.media.2026.104192">CIB-MIL: Collaborative instance-level and bag-level multiple instance learning with label disambiguation for whole slide image analysis</a>
+          </papertitle>
+          <div class="paper-info">
+            Yu Zhao<sup>*</sup>, Jun Wang<sup>*</sup>, Chao Wang<sup>*</sup>, <strong>Qin Ren</strong><sup>*</sup>, Yichang Xu, Chenchen Qin, Bing He, Xiaofeng Liu, Junzhou Huang, Jie Chen, Jianhua Yao
+          </div>
+          <div class="paper-info">
+            <span style="padding: 4px 8px; background: #fef3c7; color: #92400e; border-radius: 12px; font-size: 0.85rem; font-weight: 600; border: 1px solid #fde68a;">Medical Image Analysis</span> 2026 <strong style="color: #8b0000; font-weight: 700;">(Q1, IF: 14.0)</strong>
+          </div>
+          <div class="paper-links">
+            <a href="#" class="abstract-link" onclick="toggleAbstract(this); return false;">abstract</a>
+            <span class="separator">/</span>
+            <a href="https://www.sciencedirect.com/science/article/abs/pii/S1361841526002616">paper</a>
+            <span class="separator">/</span>
+            <a href="https://github.com/TencentAILabHealthcare/CIB-MIL">code</a>
+            <span class="separator">/</span>
+            <a href="data/cibmil.bib">bibtex</a>
+          </div>
+          <div class="paper-abstract">
+            <p>Artificial intelligence (AI)-driven histopathological image analysis has shown significant advantages for disease diagnosis, prognosis, and treatment planning, and it is receiving growing attention in modern healthcare. Due to the gigapixel size of whole slide images (WSIs), multiple instance learning (MIL) methods are widely employed in their analysis. Existing MIL approaches primarily rely on either instance-level or bag-level supervision, each facing challenges related to noisy pseudo-labels and suboptimal feature aggregation, respectively. In this paper, we present a novel MIL method for WSI analysis, termed CIB-MIL, which integrates collaborative instance-level and bag-level supervision. We introduce a label disambiguation module within the instance-level supervision channel that employs a noisy-label learning strategy to refine instance pseudo-labels and mitigate the impact of noisy labels. Additionally, we propose a collaborative supervision framework that promotes communication and interaction between the attention mechanism in the bag-level supervision channel and the pseudo-label mechanism in the instance-level supervision channel, enabling cooperative optimization of supervision in both channels. Extensive experiments conducted on five datasets, including three public datasets and two in-house datasets, demonstrate the state-of-the-art performance of CIB-MIL. The code is available at <a href="https://github.com/TencentAILabHealthcare/CIB-MIL" style="color: #1e3a8a; text-decoration: none;">https://github.com/TencentAILabHealthcare/CIB-MIL</a>.</p>
           </div>
         </div>
       </div>
